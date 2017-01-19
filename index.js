@@ -1,8 +1,8 @@
-const parseBool = require('./lib/parse');
+const parse = require('./lib/parse');
 
 module.exports = () => {
   return (req, res, next) => {
-    req.query = parseBool(req.query);
+    req.query = parse(req.query);
     next();
   };
 };
