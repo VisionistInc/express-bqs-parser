@@ -1,0 +1,9 @@
+{
+  "name": "express-bqs-parser",
+  "version": "0.0.1",
+  "description": "An Express middleware for parsing strings to booleans out of request query strings.",
+  "main": "index.js",
+  "repository": "git@github.com:VisionistInc/express-bqs-parser.git",
+  "author": "Dillon Mulroy <dillon.mulroy@visionistinc.com>",
+  "license": "MIT"
+}
