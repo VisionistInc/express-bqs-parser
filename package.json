@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "git@github.com:VisionistInc/express-bqs-parser.git",
   "author": "Dillon Mulroy <dillon.mulroy@visionistinc.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash.isobject": "^3.0.2",
+    "lodash.mapvalues": "^4.6.0"
+  }
 }
